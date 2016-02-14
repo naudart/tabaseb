@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #858e7a;
+    text-align: center;
+}
+
+a{
+    text-decoration: none; 
+    color: black;
+}
+.menu{
+    list-style: none;
+    background: #e5a736;
+    font-size: 1.3em;
+}
+.menu-content{
+    display: inline-block; 
+    padding: 10px 15px 10px 15px;    
+    background: #edc06d;
+}
+
+.corpus {
+    height: 200px;
+    background: #4c4c4c no-repeat;
+    background-image: url(../img/baniere1.gif);
+    background-size: auto 200px;
+    background-position: center;
+}
+#carte {
+    display: inline-block;
+}
+#carte table {
+    height: auto;
+    width: 100%;
+}
+#thumbnail{
+    width: 100%;
+    height: auto;
+    background: #aeba9f;
+}
+#thumbnail h2{
+    padding: 20px;
+}
+#thumbnail h4{
+    display: inline-block;
+    width: 50%;
+    padding-bottom: 20px;
+}
+#slide{
+    display: inline-block;
+    text-align: left;
+}
+#slide td{
+    padding: 20px;
+}
+.review{
+    padding: 20px;
+}
+#map{
+    display: inline-block;
+    padding-top: 20px;
+}
+#info{
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding: 20px;
+}
+.form{
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+}
+.form td{
+    padding: 10px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background: #aeba9f;
+}
+.menu-footer{
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+.menu-footer ul {list-style: none;}
+.link{
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
